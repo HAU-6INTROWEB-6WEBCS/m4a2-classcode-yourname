@@ -2,9 +2,7 @@ WebCS M4A2
 Copyright Tjakoen Stolk
 
 This starter uses the GitHub-native course platform's activity-template structure.
-The Vitest/jsdom test patterns were adapted from the INTROWEB m1a1 activity at:
-https://github.com/HAU-6INTROWEB/teacher-6introweb-2106-tjakoen
-Path: grader/m1a1/test/webpage.test.js
+The Vitest/jsdom test patterns were adapted from the course's INTROWEB m1a1 activity, kept in a private teacher repository.
 Its activity package identifies Tjakoen Stolk as author and declares the MIT license.
 The surrounding course platform uses the Apache License, Version 2.0, included here.
 

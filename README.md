@@ -16,11 +16,11 @@ npm ci
 
 You choose the towns, the ids and the folder layout.
 
-- `src/index.html` is the guide: the HTML5 skeleton, a title, one `h1` and at least four `h2` sections, one per town. Every section has an `id`, written in lowercase letters, numbers and hyphens, and no two ids repeat.
+- `src/index.html` is the guide: the HTML5 skeleton with `lang="en"`, a title of at least four characters, one `h1` and at least four `h2` sections, one per town. Every `id` on the page, including the one on your `nav`, is written in lowercase letters, numbers and hyphens, starts with a letter, and appears only once, so `1st-stop` and `TOC` are not allowed.
 - A table of contents sits in a `nav` element that has its own `id` and holds a list. It links to every section.
 - Every section has a link back to the table of contents.
 - A second page, the glossary, lives in a folder inside `src`, for example `src/extras/glossary.html`. It has the HTML5 skeleton, a title, and a description list with at least three terms.
-- The guide links to the glossary. The glossary links back to a section of the guide with `../`, for example `../index.html#contents`.
+- The guide links to the glossary. The glossary links back to a section of the guide with `../` steps, for example `../index.html#contents`. Use as many `../` as your folder depth needs, and keep file and folder names exactly as you link them, capital letters included.
 - Link text says where the link goes.
 
 ## Concepts to research
@@ -28,7 +28,7 @@ You choose the towns, the ids and the folder layout.
 - Choosing ids: what makes a good `id` value, and which characters to avoid.
 - Tables of contents: how to build one as a list of in-page links.
 - Paths that go up: how many `../` your subfolder page needs.
-- Returning to the top: how to let a reader get back to the contents from any section.
+- Returning to the contents: how to let a reader get back to the contents from any section with a link to the `id` of your `nav`.
 
 ## How it is graded
 
